@@ -57,7 +57,7 @@ PUB Set(Motor1Add, Motor2Add, Motor3Add, Motor4Add)
     Motors.Set(motor2,(Motor2Zero + long[Motor2Add])) 'Desginated Motor(2) + (base value(2) + derivation from base value(2))
     Motors.Set(motor3,(Motor3Zero + long[Motor3Add])) 'Desginated Motor(3) + (base value(3) + derivation from base value(3))
     Motors.Set(motor4,(Motor4Zero + long[Motor4Add])) 'Desginated Motor(4) + (base value(4) + derivation from base value(4))
-    Pause(1000)
+    Pause(300)
 PUB StopCore
   if cog2ID
     cogstop(cog2ID~)
