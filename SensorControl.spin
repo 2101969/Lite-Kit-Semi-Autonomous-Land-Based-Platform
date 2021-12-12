@@ -87,7 +87,7 @@ PUB sensorCore(mainToF1Add, mainToF2Add, mainUltra1Add, mainUltra2Add)
     long[mainUltra2Add] := Ultra.readSensor(1)
     long[mainToF1Add]   := ToF[0].GetSingleRange(tofAdd)
     long[mainToF2Add]   := ToF[1].GetSingleRange(tofAdd)
-    Pause(100)
+    Pause(50)
 
 
 PRI tofInit | i
