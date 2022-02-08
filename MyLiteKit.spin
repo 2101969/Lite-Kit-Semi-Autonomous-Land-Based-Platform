@@ -98,9 +98,9 @@ PUB TurnLeft
 PUB TurnRight
 
  Mot1 := -150        'change variable for motor 1 to actuate reverse
- Mot2 := 150         'change variable for motor 1 to actuate forward
- Mot3 := -150        'change variable for motor 1 to actuate reverse
- Mot4 := 150         'change variable for motor 1 to actuate forward
+ Mot2 := 150         'change variable for motor 2 to actuate forward
+ Mot3 := -150        'change variable for motor 3 to actuate reverse
+ Mot4 := 150         'change variable for motor 4 to actuate forward
 
 PUB StopAllMotors
 
